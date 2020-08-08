@@ -6,9 +6,6 @@ pipeline {
             {
                 sh 'echo "Hello worldddddddddddddd!"; exit 1'
             }
-            {
-                sh 'mvn --version'
-            }
         }
     }
 }
