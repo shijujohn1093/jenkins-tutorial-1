@@ -12,7 +12,7 @@ pipeline {
                  sh 'chmod +x ./flakey-deploy.sh'
                 timeout(time: 3, unit: 'MINUTES') {
                     retry(5) {
-                        bash './flakey-deploy.sh'
+                        sh './flakey-deploy.sh'
                     }
                 }
             }
