@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Fail!"; exit 1
+echo "Fail!"; exit 0
